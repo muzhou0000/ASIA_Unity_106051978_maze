@@ -12,28 +12,40 @@ public class Mousemove : MonoBehaviour
     public Rigidbody rig;
     public Transform Tra;
     public Animator ani;
+    public Rigidbody rigcatch;
+
     #endregion
 
-    private void Start()
-    {
-        
-    }
     private void Update()
     {
         Walk();
-        Run();
+        Rota();
         Attack();
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        print(other.name);
+        if (other.name == " pumpkin" && ani.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        {
+            Physics.IgnoreCollision(other, GetComponent<Collider>());
+            other.GetComponent<HingeJoint>().connectedBody = rigcatch;
+        }
+        if (other.name == "area" && ani.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        {
+            GameObject.Find(" pumpkin").GetComponent<HingeJoint>().connectedBody = null;
+        }
     }
 
     #region 行動
 
     void Walk()
     {
+        if (ani.GetCurrentAnimatorStateInfo(0).IsName("Attack")) return;
         float v = Input.GetAxis("Vertical");
         rig.AddForce(Tra.forward * v * speed * Time.deltaTime);
         ani.SetBool("walk", v!=0); 
     }
-    void Run()
+    void Rota()
     {
         float h = Input.GetAxis("Horizontal");
         Tra.Rotate(0,turn * h * Time.deltaTime,0);
@@ -43,13 +55,7 @@ public class Mousemove : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            ani.SetBool("Attack",true);
-
-        }
-        else
-        {
-            ani.SetBool("Attack", false);
-
+            ani.SetTrigger("Attack");
         }
 
     }
