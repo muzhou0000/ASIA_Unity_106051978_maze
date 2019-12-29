@@ -13,6 +13,8 @@ public class Mousemove : MonoBehaviour
     public Transform Tra;
     public Animator ani;
     public Rigidbody rigcatch;
+    public AudioSource aud;
+    public AudioClip packun_eating;
 
     #endregion
 
@@ -24,7 +26,6 @@ public class Mousemove : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        print(other.name);
         if (other.name == " pumpkin" && ani.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
         {
             Physics.IgnoreCollision(other, GetComponent<Collider>());
@@ -34,6 +35,7 @@ public class Mousemove : MonoBehaviour
         {
             GameObject.Find(" pumpkin").GetComponent<HingeJoint>().connectedBody = null;
         }
+   
     }
 
     #region 行動
@@ -53,9 +55,10 @@ public class Mousemove : MonoBehaviour
     }
     void Attack()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             ani.SetTrigger("Attack");
+            aud.PlayOneShot(packun_eating, 0.6f);
         }
 
     }
