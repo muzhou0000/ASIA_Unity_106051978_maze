@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/bono6/Downloads
+D:/works/1081/Unity/ASIA_Unity_106051978_maze/Web
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
