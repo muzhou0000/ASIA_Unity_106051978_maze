@@ -42,8 +42,6 @@ ScriptsOnlyBuild:
     - Fungus.Writer
     - Fungus.WriterAudio
     - Mousemove
-    - trytry
-    - trytrymouse
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -57,6 +55,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -79,8 +78,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkIdentity
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -129,8 +126,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 9916}
     - Class: 114
       Script: {instanceID: 10118}
     - Class: 114
@@ -196,8 +191,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -213,25 +206,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9748}
     - Class: 114
-      Script: {instanceID: 9814}
-    - Class: 114
       Script: {instanceID: 9916}
     - Class: 114
       Script: {instanceID: 9950}
-    - Class: 114
-      Script: {instanceID: 9970}
-    - Class: 114
-      Script: {instanceID: 9976}
     - Class: 114
       Script: {instanceID: 10070}
     - Class: 114
       Script: {instanceID: 10078}
     - Class: 114
-      Script: {instanceID: 10088}
-    - Class: 114
       Script: {instanceID: 10118}
-    - Class: 114
-      Script: {instanceID: 10120}
     - Class: 114
       Script: {instanceID: 10138}
     - Class: 114
@@ -252,8 +235,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10366}
     - Class: 114
       Script: {instanceID: 10400}
-    - Class: 114
-      Script: {instanceID: 10446}
     - Class: 114
       Script: {instanceID: 10496}
     - Class: 114
@@ -285,8 +266,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11260}
     - Class: 114
-      Script: {instanceID: 11532}
-    - Class: 114
       Script: {instanceID: 11548}
     - Class: 114
       Script: {instanceID: 11630}
@@ -306,8 +285,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12022}
     - Class: 114
       Script: {instanceID: 12044}
-    - Class: 114
-      Script: {instanceID: 12194}
     - Class: 114
       Script: {instanceID: 12212}
     - Class: 114
@@ -348,8 +325,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 135
-      Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
     - Class: 157
@@ -365,79 +340,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
-      Script: {instanceID: 0}
-    Assets/Scenes/trytry.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 59
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 10118}
-    - Class: 114
-      Script: {instanceID: 10400}
-    - Class: 114
-      Script: {instanceID: 10740}
-    - Class: 114
-      Script: {instanceID: 10872}
-    - Class: 114
-      Script: {instanceID: 11704}
-    - Class: 114
-      Script: {instanceID: 12606}
-    - Class: 114
-      Script: {instanceID: 12690}
-    - Class: 114
-      Script: {instanceID: 12856}
-    - Class: 114
-      Script: {instanceID: 13010}
-    - Class: 114
-      Script: {instanceID: 13138}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
-    - Class: 157
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -556,12 +458,6 @@ ScriptsOnlyBuild:
     className: ToString
   - hash:
       serializedVersion: 2
-      Hash: 5bd9a19c7b5f76c563418e28f48a561b
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkLobbyPlayer
-  - hash:
-      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -652,12 +548,6 @@ ScriptsOnlyBuild:
     className: Sqrt
   - hash:
       serializedVersion: 2
-      Hash: eafb77726b67b7571818a7210a3ce11e
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkIdentity
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -716,12 +606,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Fungus
     className: Sign
-  - hash:
-      serializedVersion: 2
-      Hash: ad9173d3a69d99153f38ed4b62226129
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkTransform
   - hash:
       serializedVersion: 2
       Hash: 2124ecdd8b9ba69c9896c9356a0d7d40
@@ -884,12 +768,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 3f0b469d844365c00a63de0437c9b29e
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkProximityChecker
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -1246,22 +1124,10 @@ ScriptsOnlyBuild:
     className: Particle
   - hash:
       serializedVersion: 2
-      Hash: 265cf27ba050d55ff33a8acab4ded6c0
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkLobbyManager
-  - hash:
-      serializedVersion: 2
       Hash: d6aee8b981dc32aae710591c8e4b6542
     assemblyName: Assembly-CSharp.dll
     namespaceName: Fungus
     className: AudioSourceVariable
-  - hash:
-      serializedVersion: 2
-      Hash: 5887ef1bc706b22b773d253fd443ceef
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
       Hash: ada9c294c06e843849abc5240e51a4b1
@@ -1421,12 +1287,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkCallbacks
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Analytics.Editor.dll
     namespaceName: UnityEditor.Analytics
     className: AnalyticsEventTrackerEditor
@@ -1436,12 +1296,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Fungus
     className: Inv
-  - hash:
-      serializedVersion: 2
-      Hash: 21e871d89bbce53c038fc75ad1b7c7f3
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1654,12 +1508,6 @@ ScriptsOnlyBuild:
     className: SetMenuDialog
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkStartPosition
-  - hash:
-      serializedVersion: 2
       Hash: fbe2debc96d25111f4edd5e8a46b31bf
     assemblyName: Assembly-CSharp.dll
     namespaceName: Fungus
@@ -1816,12 +1664,6 @@ ScriptsOnlyBuild:
     className: PlayAmbianceSound
   - hash:
       serializedVersion: 2
-      Hash: 318c6c13a19c9fac98135ae14889de1b
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkMigrationManager
-  - hash:
-      serializedVersion: 2
       Hash: 603d1e2d9ad933c45bfc883c509ee068
     assemblyName: Assembly-CSharp.dll
     namespaceName: Fungus
@@ -1892,12 +1734,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Fungus
     className: SetText
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkBehaviour
   - hash:
       serializedVersion: 2
       Hash: b24864bccd854f96f74ac760a6d3e78b
@@ -2074,12 +1910,6 @@ ScriptsOnlyBuild:
     className: trytry
   - hash:
       serializedVersion: 2
-      Hash: 1dcb82730d983b77cec736c6ef19f814
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkDiscovery
-  - hash:
-      serializedVersion: 2
       Hash: 893dbdbfe611d62e230a686ea89f1efd
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
@@ -2162,12 +1992,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Fungus
     className: EndEdit
-  - hash:
-      serializedVersion: 2
-      Hash: e6ae40841db498b6e673877ac45ad208
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkAnimator
   - hash:
       serializedVersion: 2
       Hash: a031f6cf52078e614736198192e8caba
@@ -2302,12 +2126,6 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: e0ee4b3d4e27318934cc940a969d3d96
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkManagerHUD
-  - hash:
-      serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -2430,5 +2248,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/menu.unity
   - Assets/Scenes/SampleScene.unity
-  - Assets/Scenes/trytry.unity
   playerPath: D:/works/1081/Unity/ASIA_Unity_106051978_maze/Web
