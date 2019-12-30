@@ -113,7 +113,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 1
-  controlID: 81
+  controlID: 30
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 82
+  controlID: 31
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 444}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 56
+  controlID: 32
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 194}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 156
+  controlID: 151
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -489,9 +489,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -23.694859, y: 0.66772467, z: -8.794272}
+    m_Target: {x: -9.944176, y: 8.533026, z: -8.421571}
     speed: 2
-    m_Value: {x: -23.694859, y: 0.66772467, z: -8.794272}
+    m_Value: {x: -9.944176, y: 8.533026, z: -8.421571}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -520,13 +520,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.38000706, y: 0.34491402, z: -0.15526666, w: 0.84412485}
+    m_Target: {x: 0.14835104, y: 0.6722336, z: -0.1401156, w: 0.7116803}
     speed: 2
-    m_Value: {x: 0.3800022, y: 0.3449096, z: -0.15526468, w: 0.84411407}
+    m_Value: {x: 0.14855903, y: 0.67115617, z: -0.13989101, w: 0.7126782}
   m_Size:
-    m_Target: 13.471211
+    m_Target: 46.202213
     speed: 2
-    m_Value: 13.471211
+    m_Value: 44.212643
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -609,7 +609,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 80b5ffffc6b5ffff14c6ffff36d4ffff3ad4ffff30e6ffff2cfbffff5aa500006aa5000082a5000086a50000
+      m_ExpandedIDs: 3eb4ffff84b4ffffd2c4fffff6d2fffffad2ffff2cfbffffb0450000c0450000d8450000dc450000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -672,19 +672,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Nature pack extended
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Nature pack extended
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\works\1081\Unity\ASIA_Unity_106051978_maze\Unity_106051978_maze
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5c380000
-    m_LastClickedID: 14428
+    m_SelectedIDs: fc3b0000
+    m_LastClickedID: 15356
     m_ExpandedIDs: 000000002e34000082380000fc3b00004c40000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -765,7 +765,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 4560}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
